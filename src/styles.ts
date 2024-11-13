@@ -4,11 +4,13 @@ const EstiloGlobal = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+
+    font-family: "Inter", sans-serif;
   }
-    body {
-      padding-top: 80px;
-    }
-`
+  body {
+    padding-top: 80px;
+  }
+  `
 export default EstiloGlobal
 
 export const Container = styled.div`
@@ -16,7 +18,7 @@ export const Container = styled.div`
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 128px auto;
+  grid-template-columns: 136px auto;
   column-gap: 56px;
 
   img {
