@@ -1,4 +1,4 @@
-import Titulo from '../../components/Titulo'
+import Titulo from '../../components/Titulo/index'
 import ReposList from '../../components/Api/github'
 
 const Projetos = () => (
