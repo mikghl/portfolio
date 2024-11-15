@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Projeto } from '../Projeto'
-import { Lista } from '../../Containers/Projetos/styles'
+import { Lista } from '../../containers/Projetos/styles'
 
 type Repositorio = {
   id: number
